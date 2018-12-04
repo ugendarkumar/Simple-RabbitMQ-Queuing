@@ -1,0 +1,17 @@
+{
+  "name": "messagequeue",
+  "version": "1.0.0",
+  "description": "messaging using rabbit mq",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "send": "node send",
+    "receive": "node receive"
+  },
+  "author": "ugi",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "amqplib": "^0.5.3"
+  }
+}
